@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Users, Share2, Calendar, MessageCircle, Gift2, Plus } from "lucide-react";
+import { Users, Share2, Calendar, MessageCircle, Gift, Plus } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -293,7 +292,7 @@ const CollaborationHub = () => {
 
                   <div className="flex gap-2">
                     <Button className="flex-1 bg-gradient-to-r from-purple-600 to-pink-600">
-                      <Gift2 className="w-4 h-4 mr-2" />
+                      <Gift className="w-4 h-4 mr-2" />
                       Manage Event
                     </Button>
                     <Button variant="outline">
@@ -401,7 +400,7 @@ const CollaborationHub = () => {
             <Card className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Gift2 className="w-5 h-5 text-purple-600" />
+                  <Gift className="w-5 h-5 text-purple-600" />
                   Collaborative Features
                 </CardTitle>
                 <CardDescription>Team collaboration capabilities</CardDescription>
